@@ -3,6 +3,8 @@ class Course {
         
 	Long id;
 	String name;
+	@manyToMany
+	List<Subject> subject;
 }
 
 
