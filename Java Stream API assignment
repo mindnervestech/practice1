@@ -1,0 +1,14 @@
+practice1/csv/Student Data.csv
+ - How many Student per course.
+
+=================================================
+practice1/csv/Subject Teacher Data.csv
+ - How many subject per teacher teaches.
+ - List of Teachers teaching maximum to minimum subject. 
+
+=================================================	
+practice1/csv/Exam Data.csv
+ - How many Exams are conducted on particular month. Hint number of unique subjects per mm/yyyy
+ - How many Students appeared on particular month and subject. 
+ - How many Students passed and failed by particular month and subject. Use Partition (50 is passing exam)
+ - Students who toped in exam by particular month and subject
