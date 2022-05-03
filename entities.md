@@ -1,25 +1,41 @@
 
 class Course {
+        
+	Long id;
 	String name;
 }
 
 
 class Subject {
+	
+	Long id;
 	String name;
 }
 
-class Exam {
+class Examination {
+	
+	String name;
+	Date examDate;
+	
+	@ManyToOne
+	Subject subject;
+	
+	@ManyToOne
+	Course course;
+	
+}
+
+class ExamResult {
 	
 	@ManyToOne
 	Student student;
 	
-	Date examDate;
-	
+	@ManyToOne
+	Examination examinaion;
+		
 	Double marks;
 	
-	@ManyToOne
-	Subject subject;
-
+	
 }
 
 
@@ -35,6 +51,7 @@ class Student {
 
 
 class Teacher {
+	
 	//Other Attributes
 	@ManyToMany
 	List<Course> courses;
