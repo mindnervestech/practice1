@@ -1,12 +1,12 @@
 **//practice1/csv/Student Data.csv
 POST /api/upload/studentdata**
 
-`Parse CSV file
+Parse CSV file
 User some libary like opencsv to read the csv file. 
 For each record of the CSV 
 	Check is the class exits in the Course table or not
 	If class does not exists in the Course table create new Course
-	Save student entity along with the Course`
+	Save student entity along with the Course
 
 =================================================
 
